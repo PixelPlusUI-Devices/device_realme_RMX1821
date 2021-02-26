@@ -22,7 +22,11 @@ PRODUCT_COPY_FILES := \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     NotchBarKiller
-	
+
+# GCam
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
 	$(DEVICE_PATH)/overlay \
