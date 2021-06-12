@@ -60,9 +60,8 @@ PRODUCT_PACKAGES += \
     init.ago.rc \
     fstab.enableswap
 
-# Doze
-PRODUCT_PACKAGES += \
-    RealmeParts
+# RealmeParts
+$(call inherit-product, packages/apps/RealmeParts/parts.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
